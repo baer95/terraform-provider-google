@@ -552,7 +552,7 @@ The `resources` block supports:
   To correlate a Revision, and/or to force a Revision to be created when the
   spec doesn't otherwise change, a nonce label may be provided in the
   template metadata. For more details, see:
-  https://github.com/knative/serving/blob/master/docs/client-conventions.md#associate-modifications-with-revisions
+  https://github.com/knative/client/blob/master/conventions/client.md#associate-modifications-with-revisions
   Cloud Run does not currently support referencing a build that is
   responsible for materializing the container image from source.
   Structure is documented below.
